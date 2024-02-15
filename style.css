@@ -1,0 +1,83 @@
+﻿#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+}
+
+    #navbar a:nth-child(1) {
+        color: red;
+    }
+
+    #navbar a:nth-child(2) {
+        color: orange;
+    }
+
+    #navbar a:nth-child(3) {
+        color: yellow;
+    }
+
+    #navbar a:nth-child(4) {
+        color: green;
+    }
+
+    #navbar a:nth-child(5) {
+        color: blue;
+    }
+
+    #navbar a:nth-child(6) {
+        color: indigo;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 16px;
+    }
+
+        #navbar a:hover {
+            color: yellow;
+        }
+
+.image-placeholder {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+#bio {
+    font-size: 18px;
+    color: red;
+}
+
+#schedule {
+    font-size: 20px;
+    color: orange;
+}
+
+#sites {
+    font-size: 22px;
+    color: yellow;
+}
+
+#movies {
+    font-size: 24px;
+    color: green;
+}
+
+#hobbies {
+    font-size: 26px;
+    color: blue;
+}
+
+#additional {
+    font-size: 28px;
+    color: indigo;
+}
